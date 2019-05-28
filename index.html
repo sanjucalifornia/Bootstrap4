@@ -38,13 +38,16 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">   
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-5">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                      </div>
                  <div class="col-12 col-sm align-self-center">
                           <img src="img/logo.png" class="img-fluid">
                     </div>
+                    <div class="offset-md col-md">
+                            <button type="submit" class="btn btn-warning">Reserve Table</button>
+                            </div>
           </div>
           
         </div>
@@ -59,7 +62,7 @@
                         <img class="d-flex mr-3 img-thumbnail align-self-center"
                                 src="img/uthappizza.png" alt="Uthappizza">
                         <div class="media-body">
-                            <h2 class="mt-0">Uthappizza</h2>
+                            <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
                             <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                                 Italian pizza, topped with Cerignola olives, ripe vine
                                 cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -69,27 +72,38 @@
 
 
         <div class ="row row-content  align-items-center">
-            <div class="col-12 col-sm-4 col-sm-3">
+            <div class="col-12 col-sm-2">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
+            <div class="col col-sm-7 col-md-6">
+                <h2>Weekend Grand Buffet <span class="badge badge-danger">New</span></h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
+            </div> 
+            <div class="col col-sm col-md">
+            <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center"
+                                src="img/buffet.png" alt="buffet">
+                        
+                    
+                    </div>
+
+                </div>
+            
+            
         </div>
 
         <div class ="row row-content  align-items-center">
-                <div class="col-12 order-sm-last col-sm-4 col-sm-3">
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-        </div>
-        <div class="media">
+                <div class="col-12  col-sm-2">    
+    <div class="media">
                 <img class="d-flex mr-3 img-thumbnail align-self-center"
                         src="img/alberto.png" alt="Alberto Somayya">
-                <div class="media-body">
+        </div>
+    </div>
+                     <div class="media-body">
+                            <div class="col-12  col-sm">
                     <h2 class="mt-0">Alberto Somayya</h2>
                     <h4>Executive Chef</h4>
+                    <div class="col-12  col-sm"></div>
                     <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
                         International experience having worked closely with
                         whos-who in the culinary world, he specializes in
@@ -97,9 +111,42 @@
                         </p>
                 </div>
             </div>
-    </div>
+            <div class="col-12 col-sm-2">
+                        <div>
+                            <h3>Meet our Culinary Specialists</h3>
+                        </div>
+                    </div>
+            </div>
+              
+ 
+    <div class="col-12 col-sm-6 offset-2">
+        <div class="card">
+            <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-2">No of guest</dt>
+                    <dd class="col-10"> <input type="radio" name="1" value="1"> 1
+                        <input type="radio" name="2" value="2"> 2
+                        <input type="radio" name="3" value="3"> 3
+                        <input type="radio" name="4" value="4"> 4
+                        <input type="radio" name="5" value="5"> 5
+                        <input type="radio" name="6" value="6"> 6
+                        
+                     </dd>
+                    <dt class="col-2">Date and Time</dt>
+                    <dd class="col-3"><input type="text" class="form-control" id="date" name="date" placeholder="Date"></dd>
+                    <dd class="col-3"><input type="text" class="form-control" id="time" name="time" placeholder="Time"></dd>
 
+                    <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                     </dl>
+                </div>
+            </div>
+     </div>
+   
+    </div>
     <footer>
+        
         <div class="container">
             <div class="row footer">              
                 <div class="col-4 offset-1 col-sm-3 ">
